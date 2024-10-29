@@ -1,0 +1,73 @@
+body {
+background-color: #F6FCDF;
+font-family: Lato, Serif;
+color: #859F3D;
+line-height: 1;
+}
+h1 {
+font-family: Times New Roman, Serif;
+font-size: 30px;
+color: #31511E;
+line-height: 3;
+letter-spacing: 3px;
+}
+a{
+	color: lightgray;
+	text-decoration: none;
+	transition: 0,03s ease;
+}
+a:hover {
+	color: lightgray;
+	text-decoration: none;
+}
+
+/*Custom Design with Class*/
+
+.container {
+	width: 750px;
+	margin: 40px auto;
+}
+.card-white {
+	margin-top: 40px;
+	padding: 15px;
+	border-radius: 5px;
+	background-color: white;
+	text-align: center;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1); 
+}
+.btn-green {
+	background-color: #F6FCDF;
+	color: #859F3D;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+.btn-green:hover{
+	background-color: black;
+	color: darkorange;
+}
+
+.image-circle {
+	border-radius: 50%;
+}
+#text-link p {
+	margin-bottom: 25px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
